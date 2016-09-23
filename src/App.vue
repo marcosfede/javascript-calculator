@@ -297,8 +297,8 @@ html {
 }
 @media screen
   and (min-device-width: 320px)
-  and (max-device-height: 667px)
-  and (-webkit-device-pixel-ratio: 2) {
+  and (max-device-height: 769px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   html,body {
     font: 100 28px 'Roboto';
   }

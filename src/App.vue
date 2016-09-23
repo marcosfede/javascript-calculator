@@ -295,7 +295,10 @@ html {
     background-color: #F28310;
     color: white;
 }
-@media (max-width: 650px) {
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-height: 667px)
+  and (-webkit-device-pixel-ratio: 2) {
   html,body {
     font: 100 28px 'Roboto';
   }

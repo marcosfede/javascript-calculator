@@ -1,9 +1,7 @@
 <template>
 <div id="app" v-on:keyup="handleClick">
+    <div id="calculator">
     <div id="top-bar"></div>
-    <div id="screen">
-        <span>{{block}}</span>
-    </div>
     <div id="screen">
         <span>{{current }}</span>
     </div>
@@ -37,6 +35,10 @@
             <Key :clck="handleClick" class="button" value="."></Key>
             <Key :clck="handleClick" class="button operator" value="="></Key>
         </div>
+    </div>
+  </div>
+    <div id="madeby">
+      <p> made by <a href="https://github.com/marcosfede">marcosfede</a></p>
     </div>
 </div>
 </template>
@@ -219,16 +221,24 @@ html {
     font: 100 14px 'Roboto';
     background-color: #ddd;
 }
-
-#app {
+#calculator {
     width: 320px;
-    margin: 100px auto auto auto;
+    margin: 80px auto auto auto;
     display: flex;
     flex-direction: column;
     background: black;
     box-shadow: 0px 0px 20px 0px #aaa;
 }
-
+#madeby {
+  background-color: inherit;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#madeby a {
+  text-decoration: none;
+  font-weight: bold;
+}
 #screen {
     color: white;
     display: flex;

@@ -296,8 +296,7 @@ html {
     color: white;
 }
 @media screen
-  and (min-device-width: 320px)
-  and (max-device-height: 769px)
+  and (max-device-width: 414px)
   and (-webkit-min-device-pixel-ratio: 2) {
   html,body {
     font: 100 28px 'Roboto';

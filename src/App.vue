@@ -299,24 +299,25 @@ html {
   and (max-device-width: 414px)
   and (-webkit-min-device-pixel-ratio: 2) {
   html,body {
-    font: 100 28px 'Roboto';
+    font: 100 36px 'Roboto';
   }
   #calculator {
-    width: 640px;
+    width: 832px;
   }
   #screen {
-    width: 640px;
-    height: 200px;
+    width: 832px;
+    height: 220px;
   }
   .button {
-    width: 160px;
-    height: 160px;
+    width: 208px;
+    height: 208px;
   }
   .button.long {
-    width: 320px;
+    width: 416px;
   }
   #screen>span {
-      padding-right: 36px;
+      padding-right: 50px;
+      padding-bottom: 15px;
   }
 }
 </style>

@@ -217,7 +217,6 @@ export default {
 <style>
 body,
 html {
-    height: 100%;
     font: 100 14px 'Roboto';
     background-color: #ddd;
 }
@@ -295,5 +294,27 @@ html {
 .button.operator {
     background-color: #F28310;
     color: white;
+}
+@media (max-width: 650px) {
+  html,body {
+    font: 100 28px 'Roboto';
+  }
+  #calculator {
+    width: 640px;
+  }
+  #screen {
+    width: 640px;
+    height: 200px;
+  }
+  .button {
+    width: 160px;
+    height: 160px;
+  }
+  .button.long {
+    width: 320px;
+  }
+  #screen>span {
+      padding-right: 36px;
+  }
 }
 </style>

@@ -1,6 +1,7 @@
 # javascript-calculator
 
-> A Vue.js project
+Simple Javascript calculator for FreeCodeCamp Frontend certificate using the Vuejs 2.0 Framework
+See it live [here](https://marcosfede.github.io/javascript-calculator/)
 
 ## Build Setup
 
